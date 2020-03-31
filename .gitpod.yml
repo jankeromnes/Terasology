@@ -1,3 +1,11 @@
+image: 
+  file: gitpod.dockerfile
+
+
+
+
+
+
 tasks:
   - init: ./gradlew jar idea
     command: ./gradlew jar game
